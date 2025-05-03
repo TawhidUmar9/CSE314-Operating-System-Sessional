@@ -1,13 +1,40 @@
 #!/usr/bin/bash
 
-#Taking mandatory arguments
+function help_message {
+    echo "Usage: script.sh <submission_folder> <target_folder> <test_folder> <answer_folder> [-v] [-noexecute] [-nolc] [-nocc] [-nofc]"
+    echo "Options:"
+    echo "  -v           Enable verbose mode"
+    echo "  -noexecute   Do not execute the code"
+    echo "  -nolc        Do not calculate lines of code"
+    echo "  -nocc        Do not count comments"
+    echo "  -nofc        Do not count functions"
+    echo "  -h           Show this help message"
+}
 
-submission_foler=$1
+## Checking mandatory arguments
+arg_count=0
+
+for i in "$@"; do
+    if [[ $i != -* ]]; then
+        arg_count=$((arg_count + 1))
+    fi
+done
+
+if [[ $arg_count != 4 ]]; then
+    echo "Mandatory arguments are not provided"
+    help_message
+    kill -INT $$
+fi
+
+
+## Taking mandatory arguments
+
+submission_foler=$1;
 target_folder=$2
 test_folder=$3
 answer_folder=$4
 
-# #Checking optional flags
+## Checking optional flags
 
 verbose=false
 no_execute=false
@@ -35,21 +62,14 @@ for arg in "$@"; do
             no_function_count=true
             ;;
         -h)
-            echo "Usage: script.sh <submission_folder> <target_folder> <test_folder> <answer_folder> [-v] [-noexecute] [-nolc] [-nocc] [-nofc]"
-            echo "Options:"
-            echo "  -v           Enable verbose mode"
-            echo "  -noexecute   Do not execute the code"
-            echo "  -nolc        Do not calculate lines of code"
-            echo "  -nocc        Do not count comments"
-            echo "  -nofc        Do not count functions"
-            exit 0
+            help_message
+            kill -INT $$
             ;;
         *)
             echo "Unknown option: $arg"
             ;;
     esac
 done
-
 
 
 ##Task A:Organize
@@ -80,9 +100,11 @@ mkdir -p ../$target_folder/C++
 mkdir -p ../$target_folder/Java
 mkdir -p ../$target_folder/Python
 touch ../$target_folder/result.csv
+
 echo "student_id,student_name,language,matched,not_matched,line_count,comment_count,function_count" > ../$target_folder/result.csv
 
 find . -type f \( -name "*.c" -o -name "*.cpp" -o -name "*.py" -o -name "*.java" \) | while IFS= read -r file; do
+
     # Get the file extension
     if [[ $file == "C" || $file == "CPP" || $file == "Java" || $file == "Python" ]]; then
         continue
@@ -129,7 +151,9 @@ find . -type f \( -name "*.c" -o -name "*.cpp" -o -name "*.py" -o -name "*.java"
     ## Execute the code if the flag is set
     if [[ $no_execute == false ]]; then
         count=1
-        echo "Executing code of $roll_number"
+        if [[ $verbose == true ]]; then
+            echo "Executing code of $roll_number"
+        fi
         if [[ $extension == "c" ]]; then
         cd "../$target_folder/C/$roll_number"
         gcc main.c -o main.out
@@ -184,7 +208,7 @@ find . -type f \( -name "*.c" -o -name "*.cpp" -o -name "*.py" -o -name "*.java"
         fi
         cd ../../../$submission_foler
     fi
-    echo -n "$roll_number,$name" >> ../$target_folder/result.csv
+    echo -n "$roll_number,\"$name\"" >> ../$target_folder/result.csv
     if [[ $extension == "c" ]]; then
         echo -n ",C" >> ../$target_folder/result.csv
     elif [[ $extension == "cpp" ]]; then
@@ -213,17 +237,33 @@ find . -type f \( -name "*.c" -o -name "*.cpp" -o -name "*.py" -o -name "*.java"
         echo -n "not calculated" >> ../$target_folder/result.csv
     fi
 
-    if [[ $no_function_count == false ]]; then
-        function_count=$(grep -c "def " "$file")
-        echo -n ",$function_count" >> ../$target_folder/result.csv
+    if [[ "$no_function_count" == "false" ]]; then
+        if [[ "$extension" == "c" || "$extension" == "cpp" ]]; then
+            function_count=$(grep -E '^[ \t]*[a-zA-Z0-9_]+[ \t]+[a-zA-Z_][a-zA-Z0-9_]*[ \t]*\([^;]*\)[ \t]*\{' "$file" | wc -l)
+        elif [[ "$extension" == "java" ]]; then
+            function_count=$(grep -E '^[ \t]*(public|private|protected)?[ \t]*(static)?[ \t]*[a-zA-Z]+[ \t]+[a-zA-Z0-9_]+[ \t]*\([^)]*\)[ \t]*\{' "$file" | wc -l)
+        elif [[ "$extension" == "py" ]]; then
+            function_count=$(grep -c "def " "$file")
+        fi
+        echo -n ",$function_count" >> "../$target_folder/result.csv"
     else
-        echo -n "not calculated" >> ../$target_folder/result.csv
+        echo -n ",not calculated" >> "../$target_folder/result.csv"
     fi
 
     echo "" >> ../$target_folder/result.csv 
 done
 
-echo "All submissions processed successfully"
+for i in *; do
+    zip -r "$i.zip" "$i" > /dev/null
+done
+for i in *; do
+    if [[ $i != *.zip ]]; then
+        rm -rf "$i"
+    fi
+done
+if [[ $verbose == true ]]; then
+    echo "All submissions processed successfully"
+fi
 
 
 
