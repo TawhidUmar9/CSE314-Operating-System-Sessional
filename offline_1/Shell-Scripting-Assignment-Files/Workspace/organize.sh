@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 function help_message {
-    echo "Usage: script.sh <submission_folder> <target_folder> <test_folder> <answer_folder> [-v] [-noexecute] [-nolc] [-nocc] [-nofc]"
+    echo "Usage: organize.sh <submission_folder> <target_folder> <test_folder> <answer_folder> [-v] [-noexecute] [-nolc] [-nocc] [-nofc]"
     echo "Options:"
     echo "  -v           Enable verbose mode"
     echo "  -noexecute   Do not execute the code"
@@ -101,7 +101,22 @@ mkdir -p ../$target_folder/Java
 mkdir -p ../$target_folder/Python
 touch ../$target_folder/result.csv
 
-echo "student_id,student_name,language,matched,not_matched,line_count,comment_count,function_count" > ../$target_folder/result.csv
+echo -n "student_id,student_name,language" > ../$target_folder/result.csv
+
+if [[ $no_execute == false ]]; then
+    echo -n ",matched,not_matched" >> ../$target_folder/result.csv
+fi
+if [[ $no_line_count == false ]]; then
+    echo -n ",line_count" >> ../$target_folder/result.csv
+fi
+if [[ $no_comment_count == false ]]; then
+    echo -n ",comment_count" >> ../$target_folder/result.csv
+fi
+if [[ $no_function_count == false ]]; then
+    echo -n ",function_count" >> ../$target_folder/result.csv
+fi
+
+echo "" >> ../$target_folder/result.csv
 
 find . -type f \( -name "*.c" -o -name "*.cpp" -o -name "*.py" -o -name "*.java" \) | while IFS= read -r file; do
 
@@ -124,12 +139,14 @@ find . -type f \( -name "*.c" -o -name "*.cpp" -o -name "*.py" -o -name "*.java"
     if [[ $verbose == true ]]; then
         echo "Organizing files of $roll_number"
     fi
-    if [[ $extension == "c" || $extension == "cpp" || $extension == "java" ]]; then
-        comment_count=$(grep -c "//" "$file")
-    elif [[ $extension == "py" ]]; then
-        comment_count=$(grep -c "#" "$file")
-    fi
 
+    if [[ $no_comment_count == false ]];then
+            if [[ $extension == "c" || $extension == "cpp" || $extension == "java" ]]; then
+                comment_count=$(grep -c "//" "$file")
+            elif [[ $extension == "py" ]]; then
+                comment_count=$(grep -c "#" "$file")
+            fi
+    fi
 
     # Create the target directory based on the file extension
     if [[ $extension == "c" ]]; then
@@ -221,20 +238,14 @@ find . -type f \( -name "*.c" -o -name "*.cpp" -o -name "*.py" -o -name "*.java"
 
     if [[ $no_execute == false ]]; then
         echo -n ",$match,$unmatched" >> ../$target_folder/result.csv
-    else
-        echo -n ",not calculated,not calculated" >> ../$target_folder/result.csv
     fi
 
     if [[ $no_line_count == false ]]; then
         echo -n ",$line_count" >> ../$target_folder/result.csv
-    else
-        echo -n "not calculated" >> ../$target_folder/result.csv
     fi
 
     if [[ $no_comment_count == false ]]; then
         echo -n ",$comment_count" >> ../$target_folder/result.csv
-    else
-        echo -n "not calculated" >> ../$target_folder/result.csv
     fi
 
     if [[ "$no_function_count" == "false" ]]; then
@@ -246,8 +257,6 @@ find . -type f \( -name "*.c" -o -name "*.cpp" -o -name "*.py" -o -name "*.java"
             function_count=$(grep -c "def " "$file")
         fi
         echo -n ",$function_count" >> "../$target_folder/result.csv"
-    else
-        echo -n ",not calculated" >> "../$target_folder/result.csv"
     fi
 
     echo "" >> ../$target_folder/result.csv 
