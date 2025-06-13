@@ -6,6 +6,7 @@
 #include "proc.h"
 #include "syscall.h"
 #include "defs.h"
+#include "syscall_stat.h"
 
 // Fetch the uint64 at addr from the current process.
 int
@@ -101,7 +102,8 @@ extern uint64 sys_unlink(void);
 extern uint64 sys_link(void);
 extern uint64 sys_mkdir(void);
 extern uint64 sys_close(void);
-
+extern uint64 sys_history(void);
+extern uint ticks;
 // An array mapping syscall numbers from syscall.h
 // to the function that handles the system call.
 static uint64 (*syscalls[])(void) = {
@@ -126,6 +128,7 @@ static uint64 (*syscalls[])(void) = {
 [SYS_link]    sys_link,
 [SYS_mkdir]   sys_mkdir,
 [SYS_close]   sys_close,
+[SYS_history] sys_history,
 };
 
 void
@@ -133,15 +136,23 @@ syscall(void)
 {
   int num;
   struct proc *p = myproc();
-
+  uint start_ticks = ticks;
   num = p->trapframe->a7;
   if(num > 0 && num < NELEM(syscalls) && syscalls[num]) {
     // Use num to lookup the system call function for num, call it,
     // and store its return value in p->trapframe->a0
+
+    //update the syscall statistics
     p->trapframe->a0 = syscalls[num]();
   } else {
     printf("%d %s: unknown sys call %d\n",
             p->pid, p->name, num);
     p->trapframe->a0 = -1;
   }
+  uint end_ticks = ticks;
+  // Update syscall statistics
+  acquire(&syscall_stats[num].syscall_stat_lock);
+  syscall_stats[num].count++;
+  syscall_stats[num].accum_time += (end_ticks - start_ticks);
+  release(&syscall_stats[num].syscall_stat_lock);
 }

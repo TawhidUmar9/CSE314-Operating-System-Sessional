@@ -5,6 +5,8 @@
 #include "memlayout.h"
 #include "spinlock.h"
 #include "proc.h"
+#include "syscall.h"
+#include "syscall_stat.h"
 
 uint64
 sys_exit(void)
@@ -12,7 +14,7 @@ sys_exit(void)
   int n;
   argint(0, &n);
   exit(n);
-  return 0;  // not reached
+  return 0; // not reached
 }
 
 uint64
@@ -43,7 +45,7 @@ sys_sbrk(void)
 
   argint(0, &n);
   addr = myproc()->sz;
-  if(growproc(n) < 0)
+  if (growproc(n) < 0)
     return -1;
   return addr;
 }
@@ -55,12 +57,14 @@ sys_sleep(void)
   uint ticks0;
 
   argint(0, &n);
-  if(n < 0)
+  if (n < 0)
     n = 0;
   acquire(&tickslock);
   ticks0 = ticks;
-  while(ticks - ticks0 < n){
-    if(killed(myproc())){
+  while (ticks - ticks0 < n)
+  {
+    if (killed(myproc()))
+    {
       release(&tickslock);
       return -1;
     }
@@ -90,4 +94,38 @@ sys_uptime(void)
   xticks = ticks;
   release(&tickslock);
   return xticks;
+}
+
+uint64
+sys_history(void)
+{
+  int syscall_num;
+  uint64 userspace_struct_address;
+
+  argint(0, &syscall_num);
+  argaddr(1, &userspace_struct_address);
+  if (syscall_num < 0 || syscall_num >= NELEM(syscall_stats))
+  {
+    return -1;
+  }
+  struct syscall_stat temp_stat;
+  // acquire lock
+  acquire(&syscall_stats[syscall_num].syscall_stat_lock);
+  // temp_stat = syscall_stats[syscall_num];
+  memmove(&temp_stat, &syscall_stats[syscall_num], sizeof(temp_stat));
+  release(&syscall_stats[syscall_num].syscall_stat_lock);
+  // Ensure the syscall name is null-terminated
+  temp_stat.syscall_name[sizeof(temp_stat.syscall_name) - 1] = '\0';
+  // Check if the userspace address is valid
+  if (userspace_struct_address + sizeof(temp_stat) >= MAXVA)
+  {
+    return -1;
+  }
+  // Copy the syscall statistics to user space
+  int ret_val = copyout(myproc()->pagetable, userspace_struct_address, (char *)&temp_stat, sizeof(temp_stat));
+  if (ret_val < 0)
+  {
+    return -1;
+  }
+  return 0;
 }
