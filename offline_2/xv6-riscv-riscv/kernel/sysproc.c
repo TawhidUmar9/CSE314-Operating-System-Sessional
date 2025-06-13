@@ -7,6 +7,9 @@
 #include "proc.h"
 #include "syscall.h"
 #include "syscall_stat.h"
+#include "pstat.h"
+
+extern struct proc proc[NPROC];
 
 uint64
 sys_exit(void)
@@ -127,5 +130,80 @@ sys_history(void)
   {
     return -1;
   }
+  return 0;
+}
+
+// MLFQ scheduler related syscalls
+uint64
+sys_settickets(void)
+{
+  int tickets;
+  struct proc *p = myproc();
+
+  argint(0, &tickets);
+  if (tickets < 1)
+  {
+    acquire(&p->lock);
+    p->tickets_original = DEFAULT_TICKET_COUNT;
+    p->tickets_current = DEFAULT_TICKET_COUNT;
+    release(&p->lock);
+    return -1;
+  }
+
+  acquire(&p->lock);
+  p->tickets_original = tickets;
+  p->tickets_current = tickets;
+  release(&p->lock);
+
+  return 0;
+}
+
+uint64
+sys_getpinfo(void)
+{
+  struct pstat pstat_local;
+  struct proc *p;
+
+  uint64 uptr;
+  argaddr(0, &uptr);
+
+  // Initialize and fill pstat_local
+  for (int i = 0; i < NPROC; i++)
+  {
+    pstat_local.pid[i] = 0;
+    pstat_local.inuse[i] = 0;
+    pstat_local.inQ[i] = 0;
+    pstat_local.tickets_original[i] = 0;
+    pstat_local.tickets_current[i] = 0;
+    pstat_local.time_slices[i] = 0;
+    initlock(&pstat_local.lock, "pstat_lock");
+  }
+
+  for (p = proc; p < &proc[NPROC]; p++)
+  {
+    acquire(&p->lock);
+    if (p->state != UNUSED)
+    {
+      acquire(&pstat_local.lock);
+      int i = p - proc;
+      pstat_local.pid[i] = p->pid;
+      pstat_local.inuse[i] = 1;
+      pstat_local.inQ[i] = p->queue;
+      pstat_local.tickets_original[i] = p->tickets_original;
+      pstat_local.tickets_current[i] = p->tickets_current;
+      pstat_local.time_slices[i] = p->time_slices;
+      release(&pstat_local.lock);
+    }
+    release(&p->lock);
+  }
+
+  acquire(&pstat_local.lock);
+  int ret = copyout(myproc()->pagetable, uptr, (char *)&pstat_local, sizeof(struct pstat));
+  release(&pstat_local.lock);
+  if (ret < 0)
+  {
+    return -1;
+  }
+
   return 0;
 }

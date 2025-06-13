@@ -10,6 +10,7 @@ volatile static int started = 0;
 
 struct syscall_stat syscall_stats[50];
 
+
 const char *syscall_names[] = {
     [SYS_fork] "fork",
     [SYS_exit] "exit",
@@ -33,10 +34,12 @@ const char *syscall_names[] = {
     [SYS_mkdir] "mkdir",
     [SYS_close] "close",
     [SYS_history] "history",
+    [SYS_settickets] "settickets",
+    [SYS_getpinfo] "getpinfo",
 };
 // start() jumps here in supervisor mode on all CPUs.
 
-void initialize_sys_call_stat()
+void initialize_syscall_stat()
 {
   for (int i = 1; i < NELEM(syscall_names); i++)
   {
@@ -46,7 +49,6 @@ void initialize_sys_call_stat()
     syscall_stats[i].accum_time = 0;
   }
 }
-
 void main()
 {
   if (cpuid() == 0)
@@ -68,8 +70,8 @@ void main()
     iinit();            // inode table
     fileinit();         // file table
     virtio_disk_init(); // emulated hard disk
-    initialize_sys_call_stat();
-    userinit();         // first user process
+    initialize_syscall_stat();
+    userinit(); // first user process
     __sync_synchronize();
     started = 1;
   }
