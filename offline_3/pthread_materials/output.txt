@@ -1,0 +1,46 @@
+Intelligence Staff 1 began reviewing logbook at time 0. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 0. Operations completed = 0
+Operative 11 has arrived at the station 4 at time 69
+Operative 1 has arrived at the station 2 at time 69
+Operative 11 has finished document recreation at time 69
+Operative 1 has finished document recreation at time 69
+Operative 14 has arrived at the station 3 at time 69
+Operative 14 has finished document recreation at time 69
+Operative 5 has arrived at the station 2 at time 69
+Operative 9 has arrived at the station 2 at time 69
+Operative 9 is waiting for station 2 at time 69
+Operative 5 has finished document recreation at time 69
+Operative 9 has finished document recreation at time 69
+Operative 13 has arrived at the station 2 at time 69
+Operative 6 has arrived at the station 3 at time 69
+Operative 13 has finished document recreation at time 69
+Operative 10 has arrived at the station 3 at time 69
+Operative 10 is waiting for station 3 at time 69
+Operative 6 has finished document recreation at time 70
+Operative 2 has arrived at the station 3 at time 70
+Operative 2 is waiting for station 3 at time 70
+Operative 10 has finished document recreation at time 70
+Operative 3 has arrived at the station 4 at time 70
+Operative 3 has finished document recreation at time 70
+Operative 4 has arrived at the station 1 at time 70
+Operative 2 has finished document recreation at time 70
+Operative 4 has finished document recreation at time 70
+Unit 1 has completed document recreation phase at time 70
+Unit 1 has started intelligence distribution at time 70
+Operative 8 has arrived at the station 1 at time 70
+Operative 8 has finished document recreation at time 70
+Operative 15 has arrived at the station 4 at time 70
+Operative 15 has finished document recreation at time 70
+Operative 12 has arrived at the station 1 at time 71
+Operative 7 has arrived at the station 4 at time 71
+Operative 12 has finished document recreation at time 71
+Unit 3 has completed document recreation phase at time 71
+Operative 7 has finished document recreation at time 71
+Unit 2 has completed document recreation phase at time 71
+Unit 1 has completed intelligence distribution at time 72
+Unit 2 has started intelligence distribution at time 72
+Unit 2 has completed intelligence distribution at time 74
+Unit 3 has started intelligence distribution at time 74
+Unit 3 has completed intelligence distribution at time 77
+Intelligence Staff 2 began reviewing logbook at time 80. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 80. Operations completed = 3
