@@ -1,46 +1,508 @@
 Intelligence Staff 1 began reviewing logbook at time 0. Operations completed = 0
 Intelligence Staff 2 began reviewing logbook at time 0. Operations completed = 0
-Operative 11 has arrived at the station 4 at time 69
-Operative 1 has arrived at the station 2 at time 69
-Operative 11 has finished document recreation at time 69
-Operative 1 has finished document recreation at time 69
-Operative 14 has arrived at the station 3 at time 69
-Operative 14 has finished document recreation at time 69
-Operative 5 has arrived at the station 2 at time 69
-Operative 9 has arrived at the station 2 at time 69
-Operative 9 is waiting for station 2 at time 69
-Operative 5 has finished document recreation at time 69
-Operative 9 has finished document recreation at time 69
-Operative 13 has arrived at the station 2 at time 69
+Intelligence Staff 1 began reviewing logbook at time 1. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 1. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 1. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 1. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 2. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 2. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 2. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 2. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 3. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 3. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 4. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 4. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 4. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 4. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 5. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 5. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 5. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 5. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 6. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 6. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 7. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 7. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 7. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 7. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 8. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 8. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 8. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 9. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 9. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 9. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 10. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 10. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 10. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 10. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 11. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 11. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 11. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 12. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 12. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 12. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 13. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 13. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 13. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 13. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 14. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 14. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 14. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 14. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 15. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 15. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 16. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 16. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 16. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 16. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 17. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 17. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 17. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 17. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 18. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 18. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 18. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 19. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 19. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 19. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 20. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 20. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 20. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 20. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 21. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 21. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 21. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 22. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 22. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 22. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 23. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 23. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 23. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 23. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 24. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 24. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 24. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 24. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 25. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 25. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 26. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 26. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 26. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 26. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 27. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 27. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 27. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 27. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 28. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 28. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 28. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 29. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 29. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 29. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 30. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 30. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 30. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 30. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 31. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 31. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 31. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 32. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 32. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 32. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 33. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 33. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 33. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 33. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 34. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 34. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 34. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 34. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 35. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 35. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 36. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 36. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 36. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 36. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 37. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 37. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 37. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 37. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 38. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 38. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 39. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 39. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 39. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 39. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 40. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 40. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 40. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 40. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 41. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 41. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 41. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 42. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 42. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 42. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 43. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 43. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 43. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 43. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 44. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 44. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 44. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 44. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 45. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 45. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 46. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 46. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 46. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 46. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 47. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 47. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 47. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 47. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 48. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 48. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 48. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 49. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 49. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 49. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 50. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 50. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 50. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 50. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 51. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 51. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 51. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 51. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 52. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 52. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 53. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 53. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 53. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 53. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 54. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 54. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 54. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 54. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 55. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 55. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 56. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 56. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 56. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 56. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 57. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 57. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 57. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 57. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 58. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 58. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 58. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 59. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 59. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 59. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 60. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 60. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 60. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 60. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 61. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 61. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 62. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 62. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 62. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 62. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 63. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 63. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 63. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 63. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 64. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 64. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 64. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 64. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 65. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 65. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 66. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 66. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 66. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 66. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 67. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 67. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 68. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 68. Operations completed = 0
+Intelligence Staff 1 began reviewing logbook at time 68. Operations completed = 0
+Intelligence Staff 2 began reviewing logbook at time 69. Operations completed = 0
 Operative 6 has arrived at the station 3 at time 69
-Operative 13 has finished document recreation at time 69
-Operative 10 has arrived at the station 3 at time 69
-Operative 10 is waiting for station 3 at time 69
-Operative 6 has finished document recreation at time 70
+Operative 6 has finished document recreation at time 69
+Operative 5 has arrived at the station 2 at time 69
+Operative 3 has arrived at the station 4 at time 69
+Operative 5 has finished document recreation at time 69
+Intelligence Staff 1 began reviewing logbook at time 69. Operations completed = 0
+Operative 3 has finished document recreation at time 69
+Intelligence Staff 2 began reviewing logbook at time 69. Operations completed = 0
+Operative 9 has arrived at the station 2 at time 69
+Operative 9 has finished document recreation at time 69
+Operative 14 has arrived at the station 3 at time 69
+Intelligence Staff 1 began reviewing logbook at time 69. Operations completed = 0
+Operative 14 has finished document recreation at time 70
 Operative 2 has arrived at the station 3 at time 70
-Operative 2 is waiting for station 3 at time 70
-Operative 10 has finished document recreation at time 70
-Operative 3 has arrived at the station 4 at time 70
-Operative 3 has finished document recreation at time 70
-Operative 4 has arrived at the station 1 at time 70
-Operative 2 has finished document recreation at time 70
-Operative 4 has finished document recreation at time 70
-Unit 1 has completed document recreation phase at time 70
-Unit 1 has started intelligence distribution at time 70
 Operative 8 has arrived at the station 1 at time 70
-Operative 8 has finished document recreation at time 70
+Intelligence Staff 2 began reviewing logbook at time 70. Operations completed = 0
+Operative 2 has finished document recreation at time 70
+Operative 1 has arrived at the station 2 at time 70
 Operative 15 has arrived at the station 4 at time 70
+Operative 11 has arrived at the station 4 at time 70
+Operative 8 has finished document recreation at time 70
+Operative 1 has finished document recreation at time 70
 Operative 15 has finished document recreation at time 70
+Intelligence Staff 1 began reviewing logbook at time 70. Operations completed = 0
+Operative 7 has arrived at the station 4 at time 70
+Operative 11 has finished document recreation at time 70
+Operative 7 has finished document recreation at time 70
+Operative 4 has arrived at the station 1 at time 70
+Intelligence Staff 2 began reviewing logbook at time 70. Operations completed = 0
 Operative 12 has arrived at the station 1 at time 71
-Operative 7 has arrived at the station 4 at time 71
+Operative 4 has finished document recreation at time 71
+Unit 1 has completed document recreation phase
+Intelligence Staff 1 began reviewing logbook at time 71. Operations completed = 0
 Operative 12 has finished document recreation at time 71
-Unit 3 has completed document recreation phase at time 71
-Operative 7 has finished document recreation at time 71
-Unit 2 has completed document recreation phase at time 71
-Unit 1 has completed intelligence distribution at time 72
-Unit 2 has started intelligence distribution at time 72
-Unit 2 has completed intelligence distribution at time 74
-Unit 3 has started intelligence distribution at time 74
-Unit 3 has completed intelligence distribution at time 77
-Intelligence Staff 2 began reviewing logbook at time 80. Operations completed = 3
+Operative 13 has arrived at the station 2 at time 71
+Unit 1 has started intelligence distribution
+Operative 13 has finished document recreation at time 71
+Unit 3 has completed document recreation phase
+Operative 10 has arrived at the station 3 at time 72
+Operative 10 has finished document recreation at time 72
+Unit 2 has completed document recreation phase
+Unit 1 has completed intelligence distribution
+Intelligence Staff 2 began reviewing logbook at time 73. Operations completed = 1
+Intelligence Staff 1 began reviewing logbook at time 73. Operations completed = 1
+Unit 3 has started intelligence distribution
+Unit 3 has completed intelligence distribution
+Unit 2 has started intelligence distribution
+Unit 2 has completed intelligence distribution
+Intelligence Staff 2 began reviewing logbook at time 78. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 78. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 78. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 78. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 79. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 79. Operations completed = 3
 Intelligence Staff 1 began reviewing logbook at time 80. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 80. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 81. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 81. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 81. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 81. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 82. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 82. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 83. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 83. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 83. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 83. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 84. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 84. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 84. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 84. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 85. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 85. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 85. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 86. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 86. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 86. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 87. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 87. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 87. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 87. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 88. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 88. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 88. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 88. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 89. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 89. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 90. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 90. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 90. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 90. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 91. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 91. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 91. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 91. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 92. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 92. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 93. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 93. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 93. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 94. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 94. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 94. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 95. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 95. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 95. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 96. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 96. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 96. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 96. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 97. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 97. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 97. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 98. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 98. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 98. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 99. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 99. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 99. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 99. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 100. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 100. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 100. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 101. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 101. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 101. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 101. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 102. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 102. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 102. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 103. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 103. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 103. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 104. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 104. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 104. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 104. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 105. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 105. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 105. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 106. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 106. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 106. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 107. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 107. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 107. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 107. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 108. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 108. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 108. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 109. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 109. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 110. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 110. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 110. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 110. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 111. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 111. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 111. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 112. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 112. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 112. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 113. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 113. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 113. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 113. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 114. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 114. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 114. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 115. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 115. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 115. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 116. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 116. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 116. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 116. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 117. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 117. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 117. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 118. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 118. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 118. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 119. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 119. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 119. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 120. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 120. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 120. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 121. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 121. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 122. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 122. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 122. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 122. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 123. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 123. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 124. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 124. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 124. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 125. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 125. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 126. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 126. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 126. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 127. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 127. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 128. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 128. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 128. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 128. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 129. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 129. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 129. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 130. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 130. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 130. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 131. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 131. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 131. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 131. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 132. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 132. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 132. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 133. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 133. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 133. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 134. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 134. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 134. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 134. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 135. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 135. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 135. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 136. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 136. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 136. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 137. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 137. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 137. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 138. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 138. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 138. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 138. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 139. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 139. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 139. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 140. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 140. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 140. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 141. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 141. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 141. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 141. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 142. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 142. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 142. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 143. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 143. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 143. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 144. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 144. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 144. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 144. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 145. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 145. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 145. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 146. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 146. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 146. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 147. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 147. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 147. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 147. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 148. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 148. Operations completed = 3
+Intelligence Staff 1 began reviewing logbook at time 149. Operations completed = 3
+Intelligence Staff 2 began reviewing logbook at time 149. Operations completed = 3
